@@ -2,7 +2,7 @@
 
 """
     2D Diffusion Equation:
-        \partial u / \partial t = \nu \partial^2 u / \partial x^2  + \nu \partial^2 u / \partial y^2
+        \partial u / \partial t = \nu ( \partial^2 u / \partial x^2  + \nu \partial^2 u / \partial y^2 )
         
     Discretization: 
         + Timestep: Forward difference
