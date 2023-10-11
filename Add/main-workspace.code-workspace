@@ -1,0 +1,101 @@
+{
+    "folders": [
+      {
+        "path": "C:\\Users\\hieu.pham\\Documents\\gsi-formwork\\Library"
+      },
+      {
+        "path": "C:\\Users\\hieu.pham\\Documents\\gsi-formwork\\PythonPartsContent"
+      },
+      {
+        "name": "PythonPartsFramework",
+        "path": "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsFramework"
+      },
+      {
+        "name": "PythonPartsExample",
+        "path": "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\Examples\\PythonParts"
+      },
+      {
+        "name": "PythonPartsExampleScripts",
+        "path": "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsExampleScripts"
+      },
+      {
+        "name": "VisualScripts",
+        "path": "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\VisualScripts"
+      },
+      {
+        "name": "VisualScripting",
+        "path": "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\Examples\\VisualScripting"
+      }
+    ],
+    "settings": {
+      "python.languageServer": "Pylance",
+      "python.linting.pylintEnabled": true,
+      "python.linting.pylintCategorySeverity.convention": "Warning",
+      "python.linting.pylintCategorySeverity.refactor": "Information",
+      "python.linting.pylintArgs": [
+        "--rcfile=C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\.pylintrc"
+      ],
+      "python.autoComplete.extraPaths": [
+        "C:\\Program Files\\Allplan\\Allplan_2024_Verification 2024\\Prg",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsFramework\\GeneralScripts",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsFramework",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\VisualScripts",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsScripts"
+      ],
+      "python.defaultInterpreterPath": "C:\\Program Files\\Allplan\\Allplan_2024_Verification 2024\\Prg\\Python\\python.exe",
+      "files.exclude": {
+        "**/*_bul.xml": true,
+        "**/*_chn.xml": true,
+        "**/*_eng.xml": false,
+        "**/*_fra.xml": true,
+        "**/*_grc.xml": true,
+        "**/*_hol.xml": true,
+        "**/*_hrv.xml": true,
+        "**/*_ita.xml": true,
+        "**/*_jpn.xml": true,
+        "**/*_pol.xml": true,
+        "**/*_prt.xml": true,
+        "**/*_rum.xml": true,
+        "**/*_rus.xml": true,
+        "**/*_slk.xml": true,
+        "**/*_spa.xml": true,
+        "**/*_svn.xml": true,
+        "**/*_tch.xml": true,
+        "**/*_trk.xml": true,
+        "**/*_ung.xml": true,
+        "**/*pyproj": true,
+        "**/*sln": true,
+        "**/*__py*": true,
+        "**/.vs": true
+      },
+      "python.analysis.extraPaths": [
+        "C:\\Program Files\\Allplan\\Allplan_2024_Verification 2024\\Prg",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsFramework\\GeneralScripts",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsFramework",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\VisualScripts\\TestUtil",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\VisualScripts",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsScripts",
+        "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsExampleScripts"
+      ],
+      "files.trimTrailingWhitespace": true,
+      "python.analysis.stubPath": "C:\\ProgramData\\Nemetschek\\Allplan_2024_Verification\\2024\\Etc\\PythonPartsFramework\\InterfaceStubs",
+      "files.autoSave": "afterDelay",
+      "pylint.path": [
+        "C:\\\\ProgramData\\\\Nemetschek\\\\Allplan_2024_Verification\\\\2024\\\\Etc\\\\.pylintrc"
+      ],
+    },
+    "launch": {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "name": "Attach to Allplan",
+          "port": 5678,
+          "host": "localhost",
+          "request": "attach",
+          "type": "python",
+          "justMyCode": false
+        }
+      ]
+    }
+  }
+  
