@@ -1,3 +1,0 @@
-"""
-    Elements package init files
-"""

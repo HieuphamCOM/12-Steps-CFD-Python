@@ -1,3 +1,0 @@
-"""
-    Methods package init files
-"""
