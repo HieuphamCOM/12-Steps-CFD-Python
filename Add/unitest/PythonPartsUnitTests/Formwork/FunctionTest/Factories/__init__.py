@@ -1,3 +1,0 @@
-"""
-    Factories package init files
-"""

@@ -1,3 +1,0 @@
-"""
-    Utility package init files
-"""
